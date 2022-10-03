@@ -1,0 +1,23 @@
+body{
+	background: url("https://source.unsplash.com/random/1000x1000/?computer") no-repeat center center/cover;
+}
+
+.class {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+#box1 {
+	border: 2px solid red;
+	background-color: azure;
+}
+
+#textform{
+	width: 400px ;
+	margin: auto ;
+	display: flex ;
+	justify-content: center;
+	text-align: center;
+}
