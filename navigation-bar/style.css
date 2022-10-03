@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    background-color: aqua;
+}
+ul {
+    list-style-type: none;
+    margin : 0;
+    padding: 0;
+    width: 25%;
+    height:100%;
+    position: fixed;
+    overflow: auto;
+    color: #f1f1f1;
+    background-color: grey;
+   
+}
+li a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: auto;
+    background-color: grey;
+    padding: 8px 16px;
+}
+li a:hover{
+    background-color: aqua;
+    color: black;
+}
+.active{
+    background-color: antiquewhite;
+    color: black;
+}
