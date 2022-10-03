@@ -25,24 +25,10 @@ You need to have a basic knowledge of HTML, CSS and JavaScript under your belt. 
 #### VS code Extension
 - Live server to run the project. Click [here](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer#:~:text=Open%20a%20HTML%20file%20and,on%20Open%20with%20Live%20Server%20.&text=Open%20the%20Command%20Pallete%20by,Server%20to%20stop%20a%20server.) to see download instructions and how to use live server to run the project
 
-## Sample Working
-
-![gif](https://github.com/ialtafshaikh/static-files/raw/master/gifs/timer-app-demo.gif)
-
-### Downloading and Running this Project Locally
-1. clone the repository using below command
-```
-git clone https://github.com/altafshaikh/js-stopwatch-app.git
-```
-2. And run the index.html using Live server
 
 ## Deployment
 
 To Host the Project I had used Github Pages. To learn more [visit her](https://towardsdatascience.com/how-to-create-a-free-github-pages-website-53743d7524e1)
-
-## Live Demo of this Project
-
-[Live Working](https://ialtafshaikh.github.io/stopwatch/)
 
 ## References
 - [Build Stopwatch from HTML-CSS-JS-part-1](https://tinloof.com/blog/how-to-build-a-stopwatch-with-html-css-js-react-part-1/)
@@ -51,13 +37,3 @@ To Host the Project I had used Github Pages. To learn more [visit her](https://t
 - [Text Shadow - CSS Property](https://www.w3schools.com/cssref/css3_pr_text-shadow.asp)
 - [JS Event Listener](https://developer.mozilla.org/en-US/docs/Web/API/EventListener)
 
-## Author
-
-* **Altaf Shaikh** - *work by* - [altafshaikh](https://github.com/altafshaikh)
-
-![altaf shaikh](https://raw.githubusercontent.com/ialtafshaikh/static-files/master/coollogo_com-327551664.png)
-
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
