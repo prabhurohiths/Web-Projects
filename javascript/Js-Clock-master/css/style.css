@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+*::selection{
+    background: white;
+    color: black;
+    text-shadow: 0 0 15px black;
+    border-radius: 10%;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background: radial-gradient( #202020 , #161616);
+}
+#time{
+    color: white;
+    font-family: 'Roboto Mono';
+    letter-spacing: .5vw;
+    padding-bottom: 35px;
+    border-bottom: 2px solid white;
+}
+#mmddyy{    
+    font-size: 1.8rem;
+    font-family: "Roboto Mono";
+    color: white;
+    padding: 40px;
+}
+#clock{
+    font-size: 10vw;
+    font-weight: lighter;
+    font-family: "Azeret Mono";
+    word-spacing: 10px;
+    padding-bottom: 100px;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-shadow: 0 0 15px white;
+}
+#made{
+    position: absolute;
+    right: 2.5%;
+    bottom: 2.5%;
+    font-size:1vw;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 900;
+    color: white;
+    background: transparent;
+    padding: 10px;
+    padding-bottom: 15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border:2px solid white;
+}
+#madeby{
+    position: absolute;
+    left: 2.5%;
+    bottom: 12.5%;
+    font-size:1vw;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 900;
+    color: white;
+    
+    background: transparent;
+    padding: 10px;
+    padding-bottom: 15px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border:2px solid white;
+}
+#madeby a{
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}
+@media (max-width:992px){
+    #made, #madeby{
+        font-size: 1.5vw;
+    }
+    #mmddyy{
+        padding: 0px;
+    }
+}
+@media (max-width:750px){
+    #made, #madeby{
+        font-size: 2vw;
+    }
+    #clock{
+        font-size: 12.2vw;
+    }
+}
+@media (max-width:500px){
+    #made, #madeby{
+        font-size: 3vw;
+    }
+    #clock{
+        white-space: nowrap;
+        padding-bottom: 15px;
+    }
+}

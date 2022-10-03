@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Javascript clock</title>
+</head>
+<body>
+    <section class="hero">
+        <h1 id="time">T I M E</h1><br><br>
+        <h1 data-aos="fade-up" data-aos-duration="1500" id="clock"></h1>
+        <section data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500" id="mmddyy"></section>
+        <p class="animate__animated animate__fadeInLeft animate__delay-3s" id="madeby">Made by <a href="https://github.com/MadhanDevlpr" target="_blank"> Madhan Aadithya </a></p>
+        <p class="animate__animated animate__fadeInRight animate__delay-4s"  id="made">Made with Html, Css & Javascript</p>
+    </section>
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>  
+</body>
+</html>
