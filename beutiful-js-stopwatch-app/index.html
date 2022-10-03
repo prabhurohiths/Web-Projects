@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timer App</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;1,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navigation">
+        <div class="logo-container">
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="stopwatch">
+        <h1><span class="gold">Timer</span> App</h1>
+
+        <div class="circle">
+          <span class="time" id="display">00:00:00</span>
+        </div>
+        <div class="controls">
+          <button class="buttonPlay">
+            <img
+              id="playButton"
+              src="https://res.cloudinary.com/https-tinloof-com/image/upload/v1593360448/blog/time-in-js/play-button_opkxmt.svg"
+            />
+
+            <img
+              id="pauseButton"
+              src="https://res.cloudinary.com/https-tinloof-com/image/upload/v1593360448/blog/time-in-js/pause-button_pinhpy.svg"
+            />
+          </button>
+
+          <button class="buttonReset">
+            <img
+              id="resetButton"
+              src="https://res.cloudinary.com/https-tinloof-com/image/upload/v1593360448/blog/time-in-js/reset-button_mdv6wf.svg"
+            />
+          </button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p class="copy">
+        &copy; 2020 All Rights Reserved by <span>Altaf Shaikh</span>
+      </p>
+      <div class="social-links">
+        <a href="#" class="fa fa-twitter twitter"></a>
+        <a href="#" class="fa fa-linkedin linkedin"></a>
+        <a href="#" class="fa fa-facebook facebook"></a>
+        <a href="#" class="fa fa-github github"></a>
+      </div>
+    </footer>
+    <script src="./src/timer.js"></script>
+  </body>
+</html>
