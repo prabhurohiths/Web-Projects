@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress bar</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Atkinson Hyperlegible', sans-serif;
+        }
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #191919;
+        }
+        .outer {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            /* box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)
+            , inset 5px 5px 20px rgba(225, 225, 225, 1); */
+        }
+        .inner {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            /* box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)
+            , inset 5px 5px 20px rgba(225, 225, 225, 1); */
+        }
+        #percentage {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 20px;
+            font-weight: 600;
+            color: #fff;
+            pointer-events: none;
+        }
+        .bar {
+            fill: none;
+            stroke: url(#GradientColor);
+            stroke-width: 20px;
+            stroke-dasharray: 534;
+            stroke-dashoffset: 534;
+            animation: prog 2s linear forwards;
+        }
+        @keyframes prog {
+            100% {
+                stroke-dashoffset: 144;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div class="inner">
+            <div id="percentage"></div>
+        </div>
+
+        <svg class="holder" xmlns="http://www.w3.org/2000/svg" version="1.1" width="200px" height="200px">
+            <defs>
+               <linearGradient id="GradientColor">
+                  <stop offset="0%" stop-color="#ff512f " />
+                  <stop offset="100%" stop-color=" #dd2476" />
+               </linearGradient>
+            </defs>
+            <circle class="bar" cx="100" cy="100" r="85" stroke-linecap="round" />
+    </svg>
+    </div>
+
+    <script>
+        let percent = document.getElementById("percentage");
+        let increment = 0;
+
+        setInterval(() => {
+            if(increment == 73){
+                clearInterval()
+            }
+            else{
+                increment += 1;
+                percent.innerHTML = increment + "%";
+            }
+        }, 28)
+    </script>
+</body>
+</html>
