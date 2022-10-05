@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet"  type="text/css" href=" index.css"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital  Clock</title>
+</head>
+<body onload=" updatetime() ; setInterval('updatetime()',1000) ; updatedate()  ; setInterval('updatedate()',1000) " >
+    <h1> Digital clock</h1>
+  <!-- <span id="date">DATE:</span>  
+  <span id="month">MONTH:</span>  
+  <span id="year">YEAR:</span> -->
+ <div class="container">
+   <p class="para"> Date </p><br><br> <br> 
+  <div  id="update" class="para">
+   Tuesday  12-Feb-2022 12:34:46PM
+</div>
+</div>
+<div  class= "container1">
+  <p class="para1"> Time</p> <br><br> <br> 
+<div id="time" class="para1">
+  12:34:46 PM
+</div>
+</div>
+</body>
+<script src="index.js"> </script>
+</html>           
