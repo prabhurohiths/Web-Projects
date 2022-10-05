@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Runner</title>
+  </head>
+  <style>
+    * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+    .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+      flex-direction: column;
+    }
+    .main {
+      min-height: 100vh;
+    }
+    h2 {
+      padding-top: 60px;
+      font-size: 50px;
+      color: white;
+      text-align: center;
+      font-family: sans-serif;
+    }
+    #canvas {
+      margin-top: 30px;
+      background: white;
+      border-radius: 5px;
+    }
+  </style>
+  <body>
+    <section class="main center">
+      <h2>Runner</h2>
+
+      <canvas id="canvas"></canvas>
+    </section>
+    <script src="./main.js"></script>
+  </body>
+</html>
