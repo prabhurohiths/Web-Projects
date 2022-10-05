@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Convertor</title>
+    <link rel="stylesheet" href="index.css">
+
+<!--heading font-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+
+<!--button font-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div class="container">Temperature Convertor</div>
+<form id="tempCalc" onsubmit="calculateTemp(); return false">
+
+<label for="temp">Enter Temperature</label>
+
+<input id="temp" placeholder="Enter Temperature"  type="number" name="temp">
+
+<label class="hash">Select Temperature unit:
+<select name="temp_diff" id="temp_diff">
+<option value="cel">°Celsius</option>
+<option value="Fah">℉ahrenheit</option>
+</select>
+</label>
+
+
+
+<input type="submit" name="temp" value="Convert" id="submit">
+
+
+</form>
+<span id="resultContainer">
+</span>
+
+<script src="script.js"></script>
+</body>
+</html>
