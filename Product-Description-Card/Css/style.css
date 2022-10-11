@@ -68,6 +68,9 @@ body {
 .card .product {
   height: 500px;
   object-fit: cover;
+  border:2px solid grey;
+  border-right: transparent;
+  border-bottom:transparent;
   border-top-left-radius: 0.8rem;
   border-bottom-left-radius: 0.8rem;
 }
@@ -131,10 +134,11 @@ body {
   }
 
   .card .product {
-    background: url(/images/image-product-mobile.jpg);
-    width: 90%;
-    height: 230px;
+    background: url(/Product-Description-Card/images/img1.PNG);
+    width: 60%;
+    height: 200px;
     margin: 20px 12px;
+    border:2px solid var(--Dark-blue);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 0%;
