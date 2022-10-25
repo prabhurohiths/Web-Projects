@@ -1,0 +1,100 @@
+html {
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 40px;
+  height:100%;
+}
+
+.generators {
+  align-content: left;
+  overflow-wrap: break-word;
+  border-right: 1px solid black;
+  margin-right: 50%;
+  height: 100%;
+}
+
+.title {
+  padding-left: inherit;
+  font-size: 2.5em;
+  letter-spacing: 5px;
+  word-spacing: -5px;
+  font-weight: bold;
+  line-height: 0.7;
+}
+
+.tavern {
+  padding-left: inherit;
+  font-size: 2.5em;
+  letter-spacing: 5px;
+  word-spacing: -5px;
+  font-weight: bold;
+  line-height: 0.7;
+}
+
+.drink {
+  padding-left: inherit;
+  font-size: 2.5em;
+  letter-spacing: 5px;
+  word-spacing: -5px;
+  font-weight: bold;
+  line-height: 0.7;
+}
+
+.desc {
+  padding-left: inherit;
+  font-size: 2.5em;
+  letter-spacing: 5px;
+  word-spacing: -5px;
+  font-weight: bold;
+  line-height: 0.7;
+}
+
+#tavern-name {
+  border: none;
+  background: none;
+  outline:0;
+
+  padding: 10px;
+  padding-left: inherit;
+  font-size: 2.5em;
+  letter-spacing: 5px;
+  word-spacing: -5px;
+  line-height: 0.7;
+  cursor: pointer;
+  display: inline-block;
+}
+
+#drink-name {
+  border: none;
+  background: none;
+  outline:0;
+
+  padding: 10px;
+  padding-left: inherit;
+  font-size: 2em;
+  letter-spacing: 5px;
+  word-spacing: -5px;
+  line-height: 0.7;
+  cursor: pointer;
+  display: inline-block;
+}
+
+#description {
+  border: none;
+  background: none;
+  outline:0;
+
+  padding: 10px;
+  padding-left: inherit;
+  font-size: 1.5em;
+  letter-spacing: 5px;
+  word-spacing: -5px;
+  line-height: 0.7;
+  cursor: pointer;
+  display: inline-block;
+}
+
+#pdescription {
+  padding-left: inherit;
+  font-size: 1.25em;
+
+}
