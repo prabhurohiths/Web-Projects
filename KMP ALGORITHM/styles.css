@@ -1,0 +1,135 @@
+#title{
+    text-align: center;
+    color: BLACK;
+    font-family: 'Comfortaa', cursive;
+font-size: 400%;
+    padding-top: 7%;
+}
+
+#btn{
+    width: 10%;
+    height: 45%;
+    margin-left: 45%;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+    background-color: black;
+  font-family: Roboto;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+.inp {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  max-width: 280px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.inp .label {
+  position: absolute;
+  top: 20px;
+  left: 12px;
+  font-size: 16px;
+      font-family: 'Comfortaa', cursive;
+
+  font-weight: 500;
+  transform-origin: 0 0;
+  transform: translate3d(0, 0, 0);
+  transition: all 0.2s ease;
+  pointer-events: none;
+}
+.inp .focus-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.05);
+  z-index: -1;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+.inp input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+  width: 100%;
+  border: 0;
+      font-family: 'Comfortaa', cursive;
+
+  padding: 16px 12px 0 12px;
+  height: 56px;
+  font-size: 16px;
+  font-weight: 400;
+ 
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.3);
+  color: black;
+  transition: all 0.15s ease;
+}
+.inp input:hover {
+  background-color: gainsboro;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.5);
+}
+.inp input:not(:-moz-placeholder-shown) + .label {
+  
+  transform: translate3d(0, -12px, 0) scale(0.75);
+}
+.inp input:not(:-ms-input-placeholder) + .label {
+ 
+  transform: translate3d(0, -12px, 0) scale(0.75);
+}
+.inp input:not(:placeholder-shown) + .label {
+  
+  transform: translate3d(0, -12px, 0) scale(0.75);
+}
+.inp input:focus {
+ 
+  outline: none;
+  box-shadow: inset 0 -2px 0 #0077FF;
+}
+.inp input:focus + .label {
+  color: #0077FF;
+  transform: translate3d(0, -12px, 0) scale(0.75);
+}
+.inp input:focus + .label + .focus-bg {
+  transform: scaleX(1);
+  transition: all 0.1s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+#output {
+    text-align: center;
+          font-family: 'Comfortaa', cursive;
+    font-size: 150%;
+}
+
+#footer {
+    background-color: black;
+}
+
+#h2 {
+    color: white;
+          font-family: 'Comfortaa', cursive;
+text-align: center;
+    padding-top: 2%;
+    
+}
